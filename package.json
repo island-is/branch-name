@@ -2,11 +2,11 @@
   "name": "branch-name-github-action",
   "version": "1.0.1",
   "description": "Export branch name as environment variable",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "lint": "eslint index.js",
-    "package": "ncc build index.js -o dist",
-    "test": "eslint index.js && jest"
+    "lint": "eslint index.mjs",
+    "package": "ncc build index.mjs -o dist",
+    "test": "eslint index.mjs && jest"
   },
   "repository": {
     "type": "git",
