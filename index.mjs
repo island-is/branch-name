@@ -1,5 +1,5 @@
-import { core } from "@actions/core";
-import { process } from "node:process";
+import core from "@actions/core";
+import process from "node:process";
 
 async function run() {
   try {
