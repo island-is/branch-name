@@ -5,7 +5,7 @@
   "main": "index.mjs",
   "scripts": {
     "lint": "eslint index.mjs",
-    "package": "esbuild --minify index.mjs --outdir=dist/",
+    "package": "esbuild --minify --bundle --platform=node index.mjs --outdir=dist/",
     "test": "true"
   },
   "repository": {
