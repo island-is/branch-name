@@ -1,4 +1,4 @@
-name: "test"
+name: "Test own action"
 on:
   push:
     branches:
