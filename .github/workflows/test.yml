@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: island-is/branch-name@v1
+      - uses: island-is/branch-name@v1.1.0
       - run: |
           echo "$BRANCH_NAME"
           if [[ "$BRANCH_NAME" != 'main' ]]; then
